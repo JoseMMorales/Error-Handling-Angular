@@ -17,10 +17,10 @@ Errors are most critical topic we have to be focus on. As we can't get rid of th
 
 ### Streams 😲😲
 
-Streams are a sequence of values over time. Therefore, to have a better understanding how errors are sent out in reactive programming we have set different logs based on level of [ErrorHandlers] placed in different levels of our exercise(https://www.learnrxjs.io/learn-rxjs/operators/error_handling) (Interceptor, Global Service and Component).
+In RxJS streams are a sequence of values over time. Therefore, to have a better understanding how errors are sent out in reactive programming we have set different logs based on level of [ErrorHandlers](https://www.learnrxjs.io/learn-rxjs/operators/error_handling) placed in distinct levels of our exercise (Interceptor, Global Service and Component).
 
 <div align="center">
-<img width="557" alt="Streams" src="https://user-images.githubusercontent.com/43299285/225821468-6d9b44b3-4bcf-4f78-b86b-506a807bc8d7.PNG">
+<img width="657" alt="Streams" src="https://user-images.githubusercontent.com/43299285/225821468-6d9b44b3-4bcf-4f78-b86b-506a807bc8d7.PNG">
 </div>
 
 </br>
@@ -32,7 +32,7 @@ Streams are a sequence of values over time. Therefore, to have a better understa
 
 </br>
 
-#### For instance, Global error service and notifications (Not in this project)... 🙌 🙌
+### Example of global error service and notifications (Not in this project)... 🙌 🙌
 
 ⚠️ Note!! Don´t forget to add the service in the app.module to identify any error raised.
 
@@ -42,8 +42,6 @@ provide: ErrorHandler,
 useClass: ErrorHandlingService,
 },
 ```
-
-</br>
 
 #### Multiple errors returned in Http response(400, 401, 403) which are detected to let the user know throughout the notifications service.
 
@@ -59,8 +57,8 @@ useClass: ErrorHandlingService,
 
 ### How to clone: ✏️
 
-- `git clone https://github.com/JoseMMorales/Error-Handling.git`
-- `cd Error-Handling`
+- `git clone https://github.com/JoseMMorales/Error-Handling-Angular.git`
+- `cd Error-Handling-Angular`
 - `code .` => If using VSCode
 - `npm install`
 - `npm start` or `ng serve -o`
