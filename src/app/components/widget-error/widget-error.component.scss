@@ -1,0 +1,21 @@
+:host {
+  padding: 5px 15px;
+  box-sizing: border-box;
+  display: block;
+  color: red;
+  background-color: #ffe2e2;
+
+  .message-error,
+  .heading-error {
+    margin: 0;
+  }
+
+  .message-error {
+    font-size: 10px;
+  }
+
+  .heading-error {
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+}
