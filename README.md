@@ -4,7 +4,7 @@
 
 </div>
 
-Errors are most critical topic we have to be focus on. As we can't get rid of them it is a mandatory to handle the exceptions to improve the user experience in our Apps. In this repo we will use different strategies to do this, for instance how to manage errors globally, how to handle errors in a reactive way([RxJS streams](https://www.learnrxjs.io/learn-rxjs/concepts/rxjs-primer)), and how to build [HTTP_INTERCEPTORS](https://angular.io/api/common/http/HttpInterceptor) to implement a global strategy for failed HTTP requests.
+Errors are the most critical topic we have to be focus on. As we can't get rid of them it is a mandatory to handle the exceptions to improve the user experience in our Apps. In this repo we will use different strategies to do this, for instance how to manage errors globally, how to handle errors in a reactive way([RxJS streams](https://www.learnrxjs.io/learn-rxjs/concepts/rxjs-primer)), and how to build [HTTP_INTERCEPTORS](https://angular.io/api/common/http/HttpInterceptor) to implement a global strategy for failed HTTP requests.
 
 </br>
 
@@ -17,7 +17,7 @@ Errors are most critical topic we have to be focus on. As we can't get rid of th
 
 ### Streams 😲😲
 
-In RxJS streams are a sequence of values over time. Therefore, to have a better understanding how errors are sent out in reactive programming we have set different logs based on level of [ErrorHandlers](https://www.learnrxjs.io/learn-rxjs/operators/error_handling) placed in distinct levels of our exercise (Interceptor, Global Service and Component).
+In RxJS streams are a sequence of values over time. Therefore, to have a better understanding on how errors are sent out in reactive programming we have set different logs based on level of [ErrorHandlers](https://www.learnrxjs.io/learn-rxjs/operators/error_handling) placed in distinct levels of our exercise (Interceptor, Global Service and Component).
 
 <div align="center">
 <img width="657" alt="Streams" src="https://user-images.githubusercontent.com/43299285/225821468-6d9b44b3-4bcf-4f78-b86b-506a807bc8d7.PNG">
